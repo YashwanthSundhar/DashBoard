@@ -1,0 +1,105 @@
+<!DOCTYPE html> 
+<head>
+    <title>
+       Dashboard
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="Home.css">
+
+   
+</head>
+<body>
+    <div class="sidenav">
+        <a href="#">Home</a>
+        <a href="#">Services</a>
+        <a href="#crtCrd">Add Card</a>
+       
+      </div>
+      
+    
+<div class="main container">
+    <div class="Top"><h2>GLOBAL NETWORK PORTAL</h2></div>
+
+                <h2 style="color: white;margin-left: 165px;margin-top: 25px;">Dashboard Template</h2>
+            <div class="Usr" id="#crtCrd">
+
+    
+                <h2></h2>
+
+                
+
+                <button data-target="simpleModal_5" data-toggle="Pop5" >Add</button>
+                <div id="simpleModal_5" class="modal5">
+                  <div class="modal-window5">  
+
+                   
+                <input type="text" id="Head" name="Head" placeholder="Enter Card Title" >
+                <input type="number" id="Tsk_id" name="Cont"  placeholder="Task Id Number">
+                <input type="number" id="Cnt" name="Cont"   placeholder="Number of Host" >
+                <input type="number" id="Cnt1" name="Cont"  placeholder="Number of Networks">
+                <input type="number" id="Cnt2" name="Cont"  placeholder="Number of Interface">
+                <br>
+                
+               
+                    <button id="myBtn5" data-dismiss="pop5">Add</button>
+                    <button class="clbtn" data-dismiss="pop5">Cancel</button>
+    
+                </div>
+                </div>  
+
+               <!-- <button id="Edt_Card" onclick="OpenEdit()" >Edit</button>-->
+                
+                <button data-target="simpleModal_2" data-toggle="Pop2" >Edit</button>
+                <div id="simpleModal_2" class="modal2">
+                  <div class="modal-window2">  
+
+                    <input type="number" id="Tsk_id1" name="Cont"  placeholder="Task Id Number">
+                    <input type="number" id="EdH" name="Cont"   placeholder="Number of Host" >
+                    <input type="number" id="EdN" name="Cont"  placeholder="Number of Networks">
+                    <input type="number" id="EdI" name="Cont"  placeholder="Number of Interface">
+                    <br>
+
+                    <button id="myBtn2" data-dismiss="pop2">Update</button>
+                    <button class="clbtn" data-dismiss="pop2">Cancel</button>
+    
+                </div>
+                </div>  
+
+                <button data-target="simpleModal_4" data-toggle="Pop4" >Delete</button>
+                <div id="simpleModal_4" class="modal4">
+                  <div class="modal-window4">  
+
+                    <input type="number" id="Tsk_id4" name="Cont"  placeholder="Task Id Number">
+                    
+                    <br>
+
+                    <button id="myBtn4" data-dismiss="pop4">Delete</button>
+                    <button class="clbtn" data-dismiss="pop4">Cancel</button>
+    
+                </div>
+                </div>  
+                
+               
+
+                
+            
+            </div>
+
+        <div class="Card_Cnt">
+            <div class= "Db_Cards" id="Flex_Card">
+               
+               
+
+            </div>
+        </div>
+
+        
+        
+    
+</div>
+<script src="home.js">
+</script>
+
+</body>
+</html>
